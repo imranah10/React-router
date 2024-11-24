@@ -1,0 +1,30 @@
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(115, 152, 231);
+  padding: 15px;
+}
+nav ul{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav ul li{
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+  
+}
+li:hover{
+  background-color: rgb(228, 228, 99);
+  color: white;
+  transition: all 3s ease;
+}
+.active{
+  color: rgb(52, 168, 168);
+  font-size: 25px;
+}
